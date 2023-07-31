@@ -1,0 +1,87 @@
+header{
+    height: 49.5rem;
+    padding-top: 5rem;
+    overflow: hidden;
+}
+
+.me > img {
+    width: 71%;
+    margin-inline: auto;
+}
+
+.header_container{
+    text-align: center;
+    height: 100%;
+    position: relative;
+}
+
+/* ============================ CTA ========================= */
+.cta{
+    margin-top: 2.5rem;
+    display: flex;
+    gap: 1.2rem;
+    justify-content: center;
+}
+
+/* ============================ HEADER SOCIALS ========================= */
+.header_socials{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.8rem;
+    position: absolute;
+    left: 2%;
+    bottom: 20%;
+}
+
+.header_socials::after{
+    content: "";
+    width: 1px;
+    height: 2rem;
+    background: var(--color-primary);
+}
+
+/* ============================ HEADER SOCIALS ========================= */
+.me{
+    background: linear-gradient(var(--color-primary), transparent);
+    width: 22rem;
+    height: 30rem;
+    position: absolute;
+    left: calc(50% - 11rem);
+    margin-top: 4rem;
+    border-radius: 12rem 12rem 0 0;
+    overflow: hidden;
+    padding: 5rem 1.5rem 1.5rem 1.5rem;
+}
+
+/* ============================ SCROLL DOWN ========================= */
+.scroll_down{
+    position: absolute;
+    right: -2.3rem;
+    bottom: 20%;
+    transform: rotate(90deg);
+    font-weight: 300;
+    font-size: 0.9rem;
+}
+
+
+@media screen and (max-width: 720px){
+    .header_socials,
+    .scroll_down{
+        display: none;
+    }
+}
+@media screen and (max-width: 500px) {
+    header{
+        padding-top: 0;
+        height: 44.5rem;
+    }
+}
+
+
+
+@media screen and (max-width: 400px){
+    header {
+        height: 44.5rem;
+    }
+}
