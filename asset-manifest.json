@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/resume/static/css/main.491fd3ce.css",
+    "main.js": "/resume/static/js/main.b60b5e4a.js",
+    "static/media/heroimage.png": "/resume/static/media/heroimage.911ba224cea09754c81a.png",
+    "static/media/card.jpg": "/resume/static/media/card.bb1dbfef528b69cc5e87.jpg",
+    "static/media/Coursera_certificate.jpg": "/resume/static/media/Coursera_certificate.32d5bf96f6a8d189651f.jpg",
+    "static/media/essay_cert.jpg": "/resume/static/media/essay_cert.945b338492ae68651a48.jpg",
+    "static/media/ccna_page-0001.jpg": "/resume/static/media/ccna_page-0001.33426f22ad127596693c.jpg",
+    "static/media/cv.pdf": "/resume/static/media/cv.a84ee367d4a5c847beca.pdf",
+    "static/media/essaywriting.jpg": "/resume/static/media/essaywriting.90ec1b71a24369bad3b5.jpg",
+    "static/media/coding-ninja-image.jpg": "/resume/static/media/coding-ninja-image.25d09a829ea8a0e22eaf.jpg",
+    "static/media/gfg logo": "/resume/static/media/gfg logo.fa4e554d26fc12ccdb6a",
+    "index.html": "/resume/index.html",
+    "main.491fd3ce.css.map": "/resume/static/css/main.491fd3ce.css.map",
+    "main.b60b5e4a.js.map": "/resume/static/js/main.b60b5e4a.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.491fd3ce.css",
+    "static/js/main.b60b5e4a.js"
+  ]
+}
